@@ -19,6 +19,6 @@ test:
 	sudo insmod memo_201513696.ko
 	sudo dmesg
 	sudo dmesg -C
-	cat /proc/memo_201513696
+	sudo cat /proc/memo_201513696
 	sudo rmmod memo_201513696
 	sudo dmesg
