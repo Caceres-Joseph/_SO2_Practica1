@@ -48,7 +48,7 @@ export default {
 
         clckAceptar() {
 
-            let uri = "http://35.236.64.173:3000/cpuPercent";
+            let uri = "http://35.222.123.211:3000/cpuPercent";
 
             this.axios
                 .get(uri)

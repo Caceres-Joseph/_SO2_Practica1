@@ -38,7 +38,7 @@ export default {
         valoresIniciales() {
 
 
-            let uri = "http://35.236.64.173:3000/totalRam";
+            let uri = "http://35.222.123.211:3000/totalRam";
 
             this.axios
                 .get(uri)
@@ -61,7 +61,7 @@ export default {
 
         clckAceptar() {
 
-            let uri = "http://35.236.64.173:3000/ramPercent";
+            let uri = "http://35.222.123.211:3000/ramPercent";
 
             this.axios
                 .get(uri)
