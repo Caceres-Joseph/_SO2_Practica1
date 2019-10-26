@@ -69,7 +69,7 @@ static struct file_operations myops =
 static int simple_init(void)
 {
 
-    printk(KERN_INFO "201513696\n");
+    printk(KERN_INFO "HOLA MUNDO-201513696\n");
 	ent=proc_create("memo_201513696",0660,NULL,&myops);
 	return 0;
 }
@@ -77,7 +77,7 @@ static int simple_init(void)
 static void simple_cleanup(void)
 {
 
-  printk(KERN_INFO "Sistemas operativos 1\n");
+  printk(KERN_INFO "MODULO ELIMINADO - 201513696\n");
 	proc_remove(ent);
 }
  
